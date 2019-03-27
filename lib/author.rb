@@ -6,7 +6,7 @@ class Author
   end 
   
 end 
-
+=begin
 class Post 
   attr_accessor :title, :author 
   
@@ -19,7 +19,7 @@ class Post
 end 
 
 
-=begin 
+ 
 class Song 
   
   attr_accessor :title, :artist 

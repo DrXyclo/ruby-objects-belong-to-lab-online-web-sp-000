@@ -7,10 +7,18 @@ class Author
   
 end 
 
+class Post 
+  attr_accessor :title 
+  
+  def initialize
+    @title = title
+  end
+  
+  
+end 
 
 
-
-
+=begin 
 class Song 
   
   attr_accessor :title, :artist 
@@ -37,3 +45,4 @@ hotline_bling.artist = drake
 
 puts hotline_bling.artist.genre
 puts hotline_bling.artist.name
+=end 
